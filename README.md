@@ -32,6 +32,6 @@ end)
 
 local result = schemas.reader(buffer):schema(Player)
 
-print(result.name) --> Finch
+print(result.name) --> finch
 print(result.coins) --> 2500
 ```
